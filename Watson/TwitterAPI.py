@@ -16,6 +16,7 @@ def analyze(handle):
 	twitter_consumer_secret = ''
 	twitter_access_token = ''
 	twitter_access_secret = ''
+	#You need a Twitter Developer account to fill the gaps above!
 
 	#Invoking the Twitter API
 	twitter_api = twitter.Api(consumer_key=twitter_consumer_key,
@@ -68,7 +69,8 @@ def compare(dict1, dict2):
 
 
 #The two Twitter handles
-user_handle = "@microsoft"
+user_handle = " "
+#Any public user handle in the gap
 celebrity_handle = "@IBM" 
 
 #Analyze the user's tweets using the Watson PI API
