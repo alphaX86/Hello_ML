@@ -96,3 +96,5 @@ for keys, value in sorted_results[:5]:
 	print (celebrity[keys]),
 	print ('->'),
 	print (compared_results[keys])
+
+#App worked successfully
